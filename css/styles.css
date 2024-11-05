@@ -10,6 +10,7 @@ body {
     background-color: #9896f1;
     text-align: center;
     float: center;
+    margin-left: 15px;
 }
 
 h1 {
@@ -74,6 +75,8 @@ h1 {
     background-color: #9896f1;
     text-align: center;
     color: black;
+    margin-top: 10px;
+    margin-left: 15px;
 }
 
 
@@ -83,6 +86,7 @@ h1 {
     background-color: #8594e4;
     width: 70%;
     color: black;
+    margin-left: 15px;
 }
 
 .end {
@@ -91,14 +95,33 @@ h1 {
     background-color: grey;
     width: 70%;
     color: black;
+    margin-left: 15px;
 }
 
 .index {
     font-family: Arial, Helvetica, sans-serif;
     background-color: aquamarine;
     float: right;
-    height: 50rem;
-    width: 10%;
+    height: auto;
+    width: 18%;
     text-align: center;
     color: black;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+#img-index {
+    height: 200px;
+    border: 1px solid #d5eeff;
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+#contenido h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contenido ul li a {
+    color: white;
 }
