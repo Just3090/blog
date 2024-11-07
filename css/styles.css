@@ -110,12 +110,13 @@ h1 {
     margin-right: 15px;
 }
 
-#img-index {
+.img-index {
     height: 200px;
     border: 1px solid #d5eeff;
     float: right;
     margin-top: 5px;
     margin-right: 5px;
+    text-align: right;
 }
 
 #contenido h1 {
@@ -124,4 +125,9 @@ h1 {
 
 #contenido ul li a {
     color: white;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
 }
